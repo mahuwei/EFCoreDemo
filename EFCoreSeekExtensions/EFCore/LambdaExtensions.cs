@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using LinqSeekExtensions.EFCore;
+using LinqSeekExtensions.Share;
 
 // ReSharper disable once CheckNamespace
 namespace System.Linq {

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using LinqSeekExtensions.Share;
 
 namespace LinqSeekExtensions.EFCore {
   public class QueryPageRequest {

@@ -1,4 +1,4 @@
-﻿namespace LinqSeekExtensions.EFCore {
+namespace LinqSeekExtensions.Share {
   /// <summary>
   ///   排序顺序枚举类型
   /// </summary>

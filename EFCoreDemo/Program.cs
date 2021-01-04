@@ -11,6 +11,7 @@ using EFCoreDemo.Commands.NewRecord;
 using EFCoreDemo.Commands.QueryPageGet;
 using EFCoreDemo.Entities;
 using LinqSeekExtensions.EFCore;
+using LinqSeekExtensions.Share;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;

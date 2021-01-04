@@ -1,4 +1,6 @@
-﻿namespace LinqSeekExtensions.EFCore {
+using LinqSeekExtensions.EFCore;
+
+namespace LinqSeekExtensions.Share {
   /// <summary>
   ///   Order by item
   /// </summary>

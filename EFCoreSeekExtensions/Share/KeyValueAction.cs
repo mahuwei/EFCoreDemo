@@ -1,4 +1,6 @@
-﻿namespace LinqSeekExtensions.EFCore {
+using LinqSeekExtensions.EFCore;
+
+namespace LinqSeekExtensions.Share {
   /// <summary>
   ///   过滤条件项目
   /// </summary>

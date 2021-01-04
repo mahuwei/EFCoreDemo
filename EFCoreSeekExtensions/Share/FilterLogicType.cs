@@ -1,6 +1,6 @@
-﻿using System.ComponentModel;
+using System.ComponentModel;
 
-namespace LinqSeekExtensions.EFCore {
+namespace LinqSeekExtensions.Share {
   /// <summary>
   ///   逻辑运算符
   /// </summary>
