@@ -25,14 +25,18 @@ namespace EFCoreDemo.Commands.NewRecord {
         return await cd.Businesses.Include(d => d.Employees).ToListAsync(cancellationToken);
       }
 
-      var businesses = new List<Business> { createBusiness("001", "亿步科技"), createBusiness("002", "筷开动") };
+      var businesses = new List<Business>();
+      for (var i = 0; i < 100; i++) {
+        var num = (i + 1).ToString().PadLeft(3, '0');
+        businesses.Add(CreateBusiness(num, $"公司{num}"));
+      }
 
       await cd.Businesses.AddRangeAsync(businesses, cancellationToken);
       await cd.SaveChangesAsync(cancellationToken);
       return await cd.Businesses.Include(d => d.Employees).ToListAsync(cancellationToken);
     }
 
-    private static Business createBusiness(string no, string name) {
+    private static Business CreateBusiness(string no, string name) {
       var business = new Business {
         Id = Entity.CreateGuid(),
         No = no,
